@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="title">Tic-Tac-Toe</string>
+    <string name="rank_title">Game Ranking</string>
+    <string name="result_title">Your Records</string>
+    <string name="show_pie">SHOW IN PIE CHART</string>
+    <string name="next">NEXT</string>
+    <string name="select">SELECT YOUR\n ROLE</string>
+    <string name="sort">SORT</string>
+    <string name="htp">HOW TO PLAY</string>
+    <string name="play">PLAY</string>
+    <string name="GR">GAME RANKING</string>
+    <string name="YR">YOUR RECORDS</string>
+    <string name="CLOSE">CLOSE</string>
+    <string name="sure">Are you sure to exit</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="synt">See you next time</string>
+    <string name="sec">sec</string>
+    <string name="win_stat">Your Winning Status</string>
+    <string name="win">Win</string>
+    <string name="lose">Lose</string>
+    <string name="draw">Draw</string>
+    <string name="play_win">You Win</string>
+    <string name="play_lose">You Lose</string>
+    <string name="playerO">Player O</string>
+    <string name="playerX">Player X</string>
+    <string name="con">CONTINUE</string>
+    <string name="selpls">Select Please!</string>
+    <string name="csts">Click square to start</string>
+    <string name="create_record">Created record!</string>
+    <string name="dur">Duration:</string>
+    <string name="count">"Timer started..You are Player"</string>
+
+
+    <string-array name="sort_by">
+        <item>Sort by Time</item>
+        <item>Sort by Name</item>
+    </string-array>
+
+</resources>

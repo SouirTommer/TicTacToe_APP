@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">過三關</string>
+    <string name="title">過三關</string>
+    <string name="rank_title">遊戲排名</string>
+    <string name="result_title">遊玩記錄</string>
+    <string name="show_pie">顯示於圓形圖</string>
+    <string name="next">下一頁</string>
+    <string name="select">選擇你的\n 角色</string>
+    <string name="sort">排序</string>
+    <string name="htp">如何遊玩</string>
+    <string name="play">遊玩</string>
+    <string name="GR">遊戲排名</string>
+    <string name="YR">遊玩記錄</string>
+    <string name="CLOSE">退出</string>
+    <string name="sure">你確定要退出嗎？</string>
+    <string name="YES">是</string>
+    <string name="NO">否</string>
+    <string name="synt">下次見</string>
+    <string name="sec">秒</string>
+    <string name="win_stat">你的勝利狀況</string>
+    <string name="win">贏</string>
+    <string name="lose">輸</string>
+    <string name="draw">平手</string>
+    <string name="play_win">你贏了</string>
+    <string name="play_lose">你輸了</string>
+    <string name="playerO">玩家 O</string>
+    <string name="playerX">玩家 X</string>
+    <string name="con">繼續</string>
+    <string name="selpls">請選擇玩家!</string>
+    <string name="csts">點擊方形開始過三關</string>
+    <string name="create_record">已新增記錄!</string>
+    <string name="dur">總時長:</string>
+    <string name="count">計時中..你是玩家</string>
+    <string-array name="sort_by">
+        <item>按時間排名</item>
+        <item>按名稱排名</item>
+    </string-array>
+</resources>

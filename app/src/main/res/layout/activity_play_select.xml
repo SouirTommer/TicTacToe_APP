@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".activity_play_select">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:stateListAnimator="@null"
+        android:text="@string/select"
+        android:textColor="@color/title_color"
+        android:layout_marginBottom="100dp"
+        android:textSize="40dp"
+        android:textStyle="bold"></TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="109dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_role_2"></ImageView>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="109dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_role_1"
+            ></ImageView>
+
+    </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation='horizontal'
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/select_O"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="52dp"
+                android:text="@string/playerO"
+                android:textColor="@color/title_color"
+
+                />
+
+            <RadioButton
+                android:id="@+id/select_X"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginLeft="52dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/title_color"
+                android:text="@string/playerX" />
+            </RadioGroup>
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/button"
+        android:elevation="10dp"
+        android:onClick="next"
+        android:stateListAnimator="@null"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textStyle="bold"></Button>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-9761761343635992/7457216756"></com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>

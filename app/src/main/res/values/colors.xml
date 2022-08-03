@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#cfc6b8</color>
+    <color name="purple_500">#8F7A66</color>
+    <color name="purple_700">#8f7a66</color>
+    <color name="teal_200">#cfc6b8</color>
+    <color name="teal_700">#cfc6b8</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#d6d7d7</color>
+    <color name="bg">#faf8ef</color>
+    <color name="button">#8f7a66</color>
+    <color name="title_color">#776e65</color>
+    <color name="button_lang">#cfc6b8</color>
+    <color name="text">#534d46</color>
+    <color name="play_sq">#bbada0</color>
+    <color name="player_select">#eee4da</color>
+    <color name="cpu_select">#cdc1b4</color>
+
+    <style name="spinnerTheme">
+        <item name="android:textColor">@color/title_color</item>
+    </style>
+
+</resources>

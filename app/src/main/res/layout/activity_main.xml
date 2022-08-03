@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+
+        android:backgroundTint="@color/button_lang"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:text="@string/htp"
+
+        android:textSize="14dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="80dp"
+        android:stateListAnimator="@null"
+        android:textColor="#665e55"
+
+        android:onClick="htp"
+
+        ></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/title_color"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="283dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:elevation="30dp"
+        android:stateListAnimator="@null"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/play"
+        android:textSize="20dp"
+        android:onClick="play" />
+    <Button
+        android:layout_width="283dp"
+        android:layout_height="63dp"
+        android:elevation="30dp"
+        android:stateListAnimator="@null"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/GR"
+        android:textSize="20dp"
+        android:onClick="rank" />
+    <Button
+        android:layout_width="283dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button"
+        android:elevation="30dp"
+        android:stateListAnimator="@null"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/YR"
+        android:textSize="20dp"
+        android:onClick="result" />
+    <Button
+        android:layout_width="283dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:elevation="30dp"
+        android:stateListAnimator="@null"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/CLOSE"
+        android:textSize="20dp"
+        android:onClick="close" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-9761761343635992/7457216756"></com.google.android.gms.ads.AdView>
+
+
+
+</LinearLayout>
